@@ -4,7 +4,7 @@ import 'dart:io';
 void main() {
   var i = 0;
   var r = Random();
-  var answer = r.nextInt(100 + 1);
+  var answer = r.nextInt(100)+1;
   var count = 1;
   while (true) {
     stdout.write('please guess the number: ');
